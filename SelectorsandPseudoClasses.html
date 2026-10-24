@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+     <style>
+        button:hover{
+            color: beige;
+            background-color: aqua;
+            font-style: italic;
+        }
+        /*child selector*/
+        ul>li{
+            background-color: bisque;
+            color: brown;
+        }
+        /*sibling selector*/
+        button+h1{
+            border: 4px double greenyellow;
+            font-family: cursive;
+        }
+
+        /*nth child selector*/
+        ul li:nth-child(2){
+            border: 4px dotted orange;
+        }
+        p::first-letter{
+            color: blue;
+            font-size: xx-large;
+            border: 6px solid darkblue;
+        }
+     </style>
+</head>
+<body>
+    <button>Click Me</button>
+    <h1>today we are learning about selectors</h1>
+    <ul>
+        <li>uniform</li>
+        <li>lunch</li>
+        <li>shoes</li>
+    </ul>
+    <p>Design the first letter</p>
+</body>
+</html>
